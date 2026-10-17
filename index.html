@@ -6,7 +6,7 @@
     <title>Monsun · Analisis Metocean KMP Virgo Transport 8</title>
     <meta
       name="description"
-      content="Analisis gelombang, angin, dan arus di Masalembo / Laut Jawa untuk kejadian KMP Virgo Transport 8 (13 Sep 2026), memakai GFS dan HYCOM."
+      content="Analisis gelombang, angin, dan arus di Masalembo / Laut Jawa untuk kejadian KMP Virgo Transport 8 (13 Sep 2026), memakai INACAWO, GFS, dan HYCOM."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -33,7 +33,7 @@
     <header class="hero" id="top">
       <div class="hero-media" aria-hidden="true">
         <img
-          src="figures/spatial/gfs/swh/t_2026091218.png"
+          src="figures/spatial/inacawo/current/t_2026091218.png"
           alt=""
           width="1140"
           height="1140"
@@ -45,7 +45,7 @@
         <h1>Monsun</h1>
         <p class="hero-lead">
           Analisis metocean KMP Virgo Transport 8 — gelombang, angin, dan arus
-          permukaan di sekitar Masalembo, 10–15 September 2026.
+          permukaan di sekitar Masalembo, 10–16 September 2026.
         </p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="#meteogram">Lihat meteogram</a>
@@ -108,7 +108,7 @@
             </div>
             <div>
               <dt>Jendela analisis</dt>
-              <dd>10 Sep 00Z – 15 Sep 21Z (±3 hari)</dd>
+              <dd>10–16 Sep 2026 (INACAWO 1 jam; GFS/HYCOM 3 jam)</dd>
             </div>
             <div>
               <dt>Domain peta</dt>
@@ -207,52 +207,144 @@
           <div class="section-head">
             <h2>Meteogram titik</h2>
             <p>
-              Deret waktu GFS Wave / GFS Atmos / HYCOM (3 jam) di titik hilang
-              kontak dan estimasi drift. Slot INACAWO (1 jam) disiapkan bila paket
-              regional tersedia.
+              Parameter yang sama berdampingan: INACAWO (kiri, ~3 km / 1 jam) vs
+              GFS/HYCOM (kanan, 3 jam) di titik hilang kontak dan estimasi drift.
             </p>
           </div>
 
-          <h3 class="subhead">Primary · GFS / HYCOM</h3>
-          <div class="meteogram-stack">
+          <h3 class="subhead">Perbandingan parameter yang sama</h3>
+          <div class="compare-stack">
+            <article class="compare-row">
+              <h3 class="compare-title">Significant wave height</h3>
+              <div class="compare-pair">
+                <figure class="figure-block">
+                  <h4>INACAWO · Hsig</h4>
+                  <img
+                    src="figures/point/inacawo/meteogram_Hsig.png"
+                    alt="Meteogram Hsig INACAWO"
+                    loading="lazy"
+                  />
+                  <figcaption>~3 km · 1 jam · meter</figcaption>
+                </figure>
+                <figure class="figure-block">
+                  <h4>GFS Wave · SWH</h4>
+                  <img
+                    src="figures/point/meteogram/swh.png"
+                    alt="Meteogram SWH GFS"
+                    loading="lazy"
+                  />
+                  <figcaption>0.25° · 3 jam · meter</figcaption>
+                </figure>
+              </div>
+            </article>
+
+            <article class="compare-row">
+              <h3 class="compare-title">Primary swell</h3>
+              <div class="compare-pair">
+                <figure class="figure-block">
+                  <h4>INACAWO · PrimSwell</h4>
+                  <img
+                    src="figures/point/inacawo/meteogram_PrimSwell.png"
+                    alt="Meteogram primary swell INACAWO"
+                    loading="lazy"
+                  />
+                  <figcaption>~3 km · 1 jam · meter</figcaption>
+                </figure>
+                <figure class="figure-block">
+                  <h4>GFS Wave · Swell</h4>
+                  <img
+                    src="figures/point/meteogram/swell.png"
+                    alt="Meteogram swell GFS"
+                    loading="lazy"
+                  />
+                  <figcaption>0.25° · 3 jam · meter</figcaption>
+                </figure>
+              </div>
+            </article>
+
+            <article class="compare-row">
+              <h3 class="compare-title">Wind</h3>
+              <div class="compare-pair">
+                <figure class="figure-block">
+                  <h4>INACAWO · Wind speed</h4>
+                  <img
+                    src="figures/point/inacawo/meteogram_WindSpeed.png"
+                    alt="Meteogram angin INACAWO"
+                    loading="lazy"
+                  />
+                  <figcaption>~3 km · 1 jam · knots</figcaption>
+                </figure>
+                <figure class="figure-block">
+                  <h4>GFS Atmos · 10 m wind</h4>
+                  <img
+                    src="figures/point/meteogram/wind10m.png"
+                    alt="Meteogram angin 10 m GFS"
+                    loading="lazy"
+                  />
+                  <figcaption>0.25° · 3 jam · m/s</figcaption>
+                </figure>
+              </div>
+            </article>
+
+            <article class="compare-row">
+              <h3 class="compare-title">Surface current</h3>
+              <div class="compare-pair">
+                <figure class="figure-block">
+                  <h4>INACAWO · Current</h4>
+                  <img
+                    src="figures/point/inacawo/meteogram_Current.png"
+                    alt="Meteogram arus INACAWO"
+                    loading="lazy"
+                  />
+                  <figcaption>~3 km · 1 jam · cm/s</figcaption>
+                </figure>
+                <figure class="figure-block">
+                  <h4>HYCOM · Surface current</h4>
+                  <img
+                    src="figures/point/meteogram/seacurrent.png"
+                    alt="Meteogram arus HYCOM"
+                    loading="lazy"
+                  />
+                  <figcaption>~1/12° · 3 jam · m/s</figcaption>
+                </figure>
+              </div>
+            </article>
+          </div>
+
+          <h3 class="subhead">Hanya INACAWO</h3>
+          <p class="subhead-note">
+            Parameter tanpa pasangan setara di GFS/HYCOM primary pada halaman ini.
+          </p>
+          <div class="meteogram-stack meteogram-stack-narrow">
             <figure class="figure-block">
-              <h3>Significant wave height</h3>
+              <h3>Maximum wave height (Hmax)</h3>
               <img
-                src="figures/point/meteogram/swh.png"
-                alt="Meteogram SWH GFS"
+                src="figures/point/inacawo/meteogram_Hmax.png"
+                alt="Meteogram Hmax INACAWO"
                 loading="lazy"
               />
-              <figcaption>NOAA GFS Wave · 0.25° · 3 jam · meter</figcaption>
+              <figcaption>Sumber: INACAWO · meter</figcaption>
             </figure>
             <figure class="figure-block">
-              <h3>Primary swell</h3>
+              <h3>Sea surface temperature</h3>
               <img
-                src="figures/point/meteogram/swell.png"
-                alt="Meteogram swell GFS"
+                src="figures/point/inacawo/meteogram_SST.png"
+                alt="Meteogram SST INACAWO"
                 loading="lazy"
               />
-              <figcaption>NOAA GFS Wave · 0.25° · 3 jam · meter</figcaption>
+              <figcaption>Sumber: INACAWO · °C</figcaption>
             </figure>
             <figure class="figure-block">
-              <h3>10 m wind</h3>
+              <h3>Sea surface salinity</h3>
               <img
-                src="figures/point/meteogram/wind10m.png"
-                alt="Meteogram angin 10 m GFS"
+                src="figures/point/inacawo/meteogram_SSS.png"
+                alt="Meteogram SSS INACAWO"
                 loading="lazy"
               />
-              <figcaption>NOAA GFS Atmos · 0.25° · 3 jam · m/s</figcaption>
+              <figcaption>Sumber: INACAWO · PSU</figcaption>
             </figure>
             <figure class="figure-block">
-              <h3>Surface current</h3>
-              <img
-                src="figures/point/meteogram/seacurrent.png"
-                alt="Meteogram arus HYCOM"
-                loading="lazy"
-              />
-              <figcaption>HYCOM ESPC-D-V02 · ~1/12° · 3 jam · m/s</figcaption>
-            </figure>
-            <figure class="figure-block">
-              <h3>GFS Wave · angin permukaan</h3>
+              <h3>GFS Wave · angin permukaan (tambahan)</h3>
               <img
                 src="figures/point/meteogram/wind_sfc.png"
                 alt="Meteogram angin permukaan GFS Wave"
@@ -262,13 +354,37 @@
             </figure>
           </div>
 
-          <h3 class="subhead" id="inacawo">Slot INACAWO (menyusul)</h3>
+          <h3 class="subhead" id="roses">Direction rose · INACAWO</h3>
           <p class="subhead-note">
-            Folder <code>figures/point/inacawo/</code> dan
-            <code>figures/spatial/inacawo/</code> sudah disiapkan. Drop paket
-            regional (~3 km / 1 jam) ke sini untuk mengaktifkan perbandingan
-            berdampingan dan direction rose.
+            Distribusi arah per lokasi untuk gelombang, angin, dan arus sepanjang
+            jendela analisis.
           </p>
+          <div class="rose-grid">
+            <figure class="figure-block">
+              <h3>Wave · Hilang Kontak</h3>
+              <img src="figures/point/inacawo/waverose_Hilang_Kontak.png" alt="Wave rose hilang kontak" loading="lazy" />
+            </figure>
+            <figure class="figure-block">
+              <h3>Wave · Estimasi Drift</h3>
+              <img src="figures/point/inacawo/waverose_Estimasi_Drift.png" alt="Wave rose estimasi drift" loading="lazy" />
+            </figure>
+            <figure class="figure-block">
+              <h3>Wind · Hilang Kontak</h3>
+              <img src="figures/point/inacawo/windrose_Hilang_Kontak.png" alt="Wind rose hilang kontak" loading="lazy" />
+            </figure>
+            <figure class="figure-block">
+              <h3>Wind · Estimasi Drift</h3>
+              <img src="figures/point/inacawo/windrose_Estimasi_Drift.png" alt="Wind rose estimasi drift" loading="lazy" />
+            </figure>
+            <figure class="figure-block">
+              <h3>Current · Hilang Kontak</h3>
+              <img src="figures/point/inacawo/currentrose_Hilang_Kontak.png" alt="Current rose hilang kontak" loading="lazy" />
+            </figure>
+            <figure class="figure-block">
+              <h3>Current · Estimasi Drift</h3>
+              <img src="figures/point/inacawo/currentrose_Estimasi_Drift.png" alt="Current rose estimasi drift" loading="lazy" />
+            </figure>
+          </div>
         </div>
       </section>
 
@@ -277,9 +393,9 @@
           <div class="section-head">
             <h2>Peta spasial</h2>
             <p>
-              Pilih produk GFS/HYCOM (3 jam; slot INACAWO 1 jam bila tersedia),
-              scrub waktu, atau pakai Previous / Play / Next. Marker: merah =
-              hilang kontak, hitam = estimasi drift ~1.6 NM barat.
+              Default INACAWO (~3 km / 1 jam); GFS/HYCOM (3 jam) tersedia di
+              menu produk. Scrub waktu atau Previous / Play / Next. Marker:
+              merah = hilang kontak, hitam = estimasi drift ~1.6 NM barat.
             </p>
           </div>
 
@@ -304,8 +420,8 @@
               <img data-frame alt="Frame peta spasial" />
             </div>
             <p class="viewer-hint">
-              Default produk: GFS SWH · waktu awal mendekati 12 Sep 2026 18Z.
-              Densifikasi GFS/HYCOM 0.01° hanya untuk keterbacaan tampilan.
+              Default produk: INACAWO arus · waktu awal mendekati 12 Sep 2026
+              18Z. Densifikasi GFS/HYCOM 0.01° hanya untuk keterbacaan tampilan.
             </p>
           </div>
         </div>
@@ -539,15 +655,16 @@
               <div class="model-panel-head">
                 <h3>INACAWO (~3 km / 1 jam)</h3>
                 <div class="model-summary-tags">
-                <span class="tag">Slot · regional</span>
+                <span class="tag tag-primary">Primary · regional</span>
                 <span class="tag">Gelombang · angin · arus</span>
                 </div>
               </div>
 <p>
-              Slot model regional resolusi tinggi untuk Masalembo / Laut Jawa.
-              Belum terisi di deliverable ini — folder figure sudah disiapkan.
+              Model regional INACAWO untuk domain Masalembo / Laut Jawa.
+              Dipakai sebagai produk utama viewer spasial dan sisi kiri
+              perbandingan meteogram / direction rose.
             </p>
-            <h4>Metadata (target)</h4>
+            <h4>Metadata</h4>
             <table class="spec-table">
               <tbody>
                 <tr>
@@ -556,15 +673,28 @@
                 </tr>
                 <tr>
                   <th>Resolusi horizontal</th>
-                  <td>≈ 3 km</td>
+                  <td>≈ 3 km (grid 161×161 ≈ 0.025°)</td>
                 </tr>
                 <tr>
                   <th>Resolusi waktu</th>
                   <td>1 jam</td>
                 </tr>
                 <tr>
-                  <th>Jendela plot (target)</th>
-                  <td>10 Sep 2026 00Z – 15 Sep 2026 00Z</td>
+                  <th>Jendela plot</th>
+                  <td>10 Sep 2026 00Z – 16 Sep 2026 23Z</td>
+                </tr>
+                <tr>
+                  <th>Variabel yang dipakai</th>
+                  <td>
+                    Hsig / WaveDir · PrimSwell / SwellDir · WindSpeed (+U/V) ·
+                    CurrSpeed (+U/V) · Hmax · SST · SSS
+                  </td>
+                </tr>
+                <tr>
+                  <th>Unit plot peta</th>
+                  <td>
+                    gelombang: meter · angin: knots · arus: cm/s · arah: panah
+                  </td>
                 </tr>
                 <tr>
                   <th>Path figure</th>
@@ -575,15 +705,25 @@
                 </tr>
               </tbody>
             </table>
+            <h4>Cara data diambil</h4>
+            <p>
+              Paket titik (meteogram/rose/CSV) dan NetCDF spasial harian
+              digabung (10–13 Sep + 13–16 Sep), lalu di-render ke peta Monsun
+              lewat <code>scripts/plot_inacawo_spatial.py</code>.
+            </p>
             <h4>Caveat</h4>
             <ul class="caveat">
               <li>
-                Integrasi menunggu paket spasial + titik.zip untuk domain dan
-                jendela Virgo.
+                Produk model regional — bukan observasi in-situ; bandingkan
+                dengan GFS/HYCOM pada waktu yang sama.
               </li>
               <li>
-                Setelah diisi, bandingkan dengan GFS/HYCOM pada waktu yang sama
-                untuk melihat sinyal regional yang hilang di grid kasar.
+                Unit angin pada field spasial diperlakukan sebagai knots (rentang
+                ~0–25); arus native m/s dikalikan 100 untuk peta cm/s.
+              </li>
+              <li>
+                Overlap 13 Sep antara dua paket NetCDF di-deduplikasi pada sumbu
+                waktu.
               </li>
             </ul>
             </article>

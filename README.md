@@ -95,4 +95,4 @@ python3 -m http.server 8080
 # buka http://127.0.0.1:8080/
 ```
 
-Slot **INACAWO ~3 km / 1 jam** disiapkan di halaman (`#inacawo`); integrasi data menyusul bila paket tersedia.
+**INACAWO ~3 km / 1 jam** terintegrasi: meteogram/rose di `figures/point/inacawo/`, peta spasial di `figures/spatial/inacawo/` (render dari NetCDF lewat `scripts/plot_inacawo_spatial.py`).

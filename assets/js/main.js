@@ -1,6 +1,34 @@
 (() => {
   const PRODUCTS = [
     {
+      id: "inacawo-current",
+      label: "Arus permukaan (INACAWO 3 km)",
+      dir: "figures/spatial/inacawo/current",
+      stepHours: 1,
+      end: "2026091623",
+    },
+    {
+      id: "inacawo-wind",
+      label: "Angin (INACAWO 3 km)",
+      dir: "figures/spatial/inacawo/wind",
+      stepHours: 1,
+      end: "2026091623",
+    },
+    {
+      id: "inacawo-swh",
+      label: "Significant wave height (INACAWO 3 km)",
+      dir: "figures/spatial/inacawo/swh",
+      stepHours: 1,
+      end: "2026091623",
+    },
+    {
+      id: "inacawo-swell",
+      label: "Swell height (INACAWO 3 km)",
+      dir: "figures/spatial/inacawo/swell",
+      stepHours: 1,
+      end: "2026091623",
+    },
+    {
       id: "swh",
       label: "Significant wave height (GFS Wave)",
       dir: "figures/spatial/gfs/swh",
@@ -27,34 +55,6 @@
       dir: "figures/spatial/hycom/seacurrent",
       stepHours: 3,
       end: "2026091421", // NCSS incomplete for 15 Sep; covers event ± window core
-    },
-    {
-      id: "inacawo-current",
-      label: "Arus permukaan (INACAWO 3 km) — slot",
-      dir: "figures/spatial/inacawo/current",
-      stepHours: 1,
-      end: "2026091500",
-    },
-    {
-      id: "inacawo-wind",
-      label: "Angin (INACAWO 3 km) — slot",
-      dir: "figures/spatial/inacawo/wind",
-      stepHours: 1,
-      end: "2026091500",
-    },
-    {
-      id: "inacawo-swh",
-      label: "Significant wave height (INACAWO 3 km) — slot",
-      dir: "figures/spatial/inacawo/swh",
-      stepHours: 1,
-      end: "2026091500",
-    },
-    {
-      id: "inacawo-swell",
-      label: "Swell height (INACAWO 3 km) — slot",
-      dir: "figures/spatial/inacawo/swell",
-      stepHours: 1,
-      end: "2026091500",
     },
   ];
 

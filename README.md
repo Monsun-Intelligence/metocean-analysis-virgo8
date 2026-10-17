@@ -3,8 +3,12 @@
 Konten analisis kondisi metocean sekitar hilang kontak KMP Virgo Transport 8
 (13 Sep 2026 ~02:00 WITA / 12 Sep 2026 18:00 UTC) di perairan Masalembo, Laut Jawa.
 
-Sumber berita: [ANTARA — kronologi](https://www.antaranews.com/berita/5740341/kronologi-kmp-virgo-transport-8-terbalik-di-laut-jawa) ·
-[Basarnas koordinat pencarian](https://www.antaranews.com/berita/5739801/basarnas-cari-129-korban-km-virgo-hingga-2600-mil-laut-dari-koordinat)
+Sumber publik (juga di halaman `#referensi`):
+
+- [ANTARA — koordinat Basarnas](https://www.antaranews.com/berita/5739801/basarnas-cari-129-korban-km-virgo-hingga-2600-mil-laut-dari-koordinat)
+- [ANTARA — kronologi](https://www.antaranews.com/berita/5740341/kronologi-kmp-virgo-transport-8-terbalik-di-laut-jawa)
+- [ANTARA — drift ~1,6 NM](https://www.antaranews.com/berita/5741051/km-virgo-transport-8-bergeser-16-mil-laut-dalam-kondisi-terbalik)
+- [Wikipedia — Tenggelamnya KM Virgo Transport 8](https://id.wikipedia.org/wiki/Tenggelamnya_KM_Virgo_Transport_8)
 
 ## Yang diplot
 

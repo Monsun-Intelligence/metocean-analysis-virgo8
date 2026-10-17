@@ -290,6 +290,44 @@ section {
   border-radius: 0.2rem;
 }
 
+.loc-list a,
+.meta-strip a {
+  color: var(--accent, #0e7490);
+  text-underline-offset: 0.15em;
+}
+
+.ref-list {
+  display: grid;
+  gap: 0.85rem;
+  margin: 0.5rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ref-list li {
+  padding: 0.65rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.ref-list a {
+  color: var(--ink);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.ref-list a:hover {
+  color: var(--accent, #0e7490);
+}
+
+.ref-meta {
+  display: block;
+  margin-top: 0.2rem;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--muted, #5b6b7a);
+}
+
 /* —— Meteograms —— */
 .subhead {
   font-family: var(--font-display);

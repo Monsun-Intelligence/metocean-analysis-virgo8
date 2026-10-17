@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Monsun · Analisis Metocean KMP Virgo Transport 8</title>
+    <meta
+      name="description"
+      content="Analisis gelombang, angin, dan arus di Masalembo / Laut Jawa untuk kejadian KMP Virgo Transport 8 (13 Sep 2026), memakai GFS dan HYCOM."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <nav class="site-nav" aria-label="Navigasi utama">
+      <div class="wrap inner">
+        <a class="brand" href="#top">Monsun <span>Analysis</span></a>
+        <ul class="nav-links">
+          <li><a href="#kejadian">Kejadian</a></li>
+          <li><a href="#meteogram">Meteogram</a></li>
+          <li><a href="#spasial">Peta spasial</a></li>
+          <li><a href="#model">Model &amp; data</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="hero" id="top">
+      <div class="hero-media" aria-hidden="true">
+        <img
+          src="figures/spatial/gfs/swh/t_2026091218.png"
+          alt=""
+          width="1140"
+          height="1140"
+        />
+      </div>
+      <div class="hero-scrim" aria-hidden="true"></div>
+      <div class="wrap hero-copy">
+        <p class="hero-kicker">Monsun Analysis · Masalembo / Laut Jawa</p>
+        <h1>Monsun</h1>
+        <p class="hero-lead">
+          Analisis metocean KMP Virgo Transport 8 — gelombang, angin, dan arus
+          permukaan di sekitar Masalembo, 10–15 September 2026.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#meteogram">Lihat meteogram</a>
+          <a class="btn btn-ghost" href="#model">Sumber data &amp; caveat</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="kejadian">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Kejadian</h2>
+            <p>
+              Ringkasan lokasi dan jendela waktu yang dipakai untuk unduhan
+              model serta plot spasial/titik.
+            </p>
+          </div>
+
+          <ul class="loc-list">
+            <li>
+              <strong>Titik Hilang Kontak (Masalembo / Laut Jawa)</strong>
+              <code>-4.531061, 114.035244</code>
+              · datum Basarnas (4°31′51.82″S, 114°02′06.88″E)
+            </li>
+            <li>
+              <strong>Estimasi Drift Bangkai (~1.6 NM barat)</strong>
+              <code>-4.531061, 114.008600</code>
+              · perkiraan dari laporan Basarnas hari ke-2 SAR (bukan fix salvage)
+            </li>
+          </ul>
+
+          <dl class="meta-strip">
+            <div>
+              <dt>Waktu kejadian (laporan)</dt>
+              <dd>13 Sep 2026 ~02:00 WITA / 12 Sep 18:00 UTC</dd>
+            </div>
+            <div>
+              <dt>Jendela analisis</dt>
+              <dd>10 Sep 00Z – 15 Sep 21Z (±3 hari)</dd>
+            </div>
+            <div>
+              <dt>Domain peta</dt>
+              <dd>2° × 2° sekitar Masalembo / Laut Jawa</dd>
+            </div>
+            <div>
+              <dt>Konteks cuaca (publik)</dt>
+              <dd>BMKG: kategori sedang · kesaksian: ombak tinggi</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section id="meteogram">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Meteogram titik</h2>
+            <p>
+              Deret waktu GFS Wave / GFS Atmos / HYCOM (3 jam) di titik hilang
+              kontak dan estimasi drift. Slot INACAWO (1 jam) disiapkan bila paket
+              regional tersedia.
+            </p>
+          </div>
+
+          <h3 class="subhead">Primary · GFS / HYCOM</h3>
+          <div class="meteogram-stack">
+            <figure class="figure-block">
+              <h3>Significant wave height</h3>
+              <img
+                src="figures/point/meteogram/swh.png"
+                alt="Meteogram SWH GFS"
+                loading="lazy"
+              />
+              <figcaption>NOAA GFS Wave · 0.25° · 3 jam · meter</figcaption>
+            </figure>
+            <figure class="figure-block">
+              <h3>Primary swell</h3>
+              <img
+                src="figures/point/meteogram/swell.png"
+                alt="Meteogram swell GFS"
+                loading="lazy"
+              />
+              <figcaption>NOAA GFS Wave · 0.25° · 3 jam · meter</figcaption>
+            </figure>
+            <figure class="figure-block">
+              <h3>10 m wind</h3>
+              <img
+                src="figures/point/meteogram/wind10m.png"
+                alt="Meteogram angin 10 m GFS"
+                loading="lazy"
+              />
+              <figcaption>NOAA GFS Atmos · 0.25° · 3 jam · m/s</figcaption>
+            </figure>
+            <figure class="figure-block">
+              <h3>Surface current</h3>
+              <img
+                src="figures/point/meteogram/seacurrent.png"
+                alt="Meteogram arus HYCOM"
+                loading="lazy"
+              />
+              <figcaption>HYCOM ESPC-D-V02 · ~1/12° · 3 jam · m/s</figcaption>
+            </figure>
+            <figure class="figure-block">
+              <h3>GFS Wave · angin permukaan</h3>
+              <img
+                src="figures/point/meteogram/wind_sfc.png"
+                alt="Meteogram angin permukaan GFS Wave"
+                loading="lazy"
+              />
+              <figcaption>NOAA GFS Wave ugrdsfc/vgrdsfc · m/s</figcaption>
+            </figure>
+          </div>
+
+          <h3 class="subhead" id="inacawo">Slot INACAWO (menyusul)</h3>
+          <p class="subhead-note">
+            Folder <code>figures/point/inacawo/</code> dan
+            <code>figures/spatial/inacawo/</code> sudah disiapkan. Drop paket
+            regional (~3 km / 1 jam) ke sini untuk mengaktifkan perbandingan
+            berdampingan dan direction rose.
+          </p>
+        </div>
+      </section>
+
+      <section id="spasial">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Peta spasial</h2>
+            <p>
+              Pilih produk GFS/HYCOM (3 jam; slot INACAWO 1 jam bila tersedia),
+              scrub waktu, atau pakai Previous / Play / Next. Marker: merah =
+              hilang kontak, hitam = estimasi drift ~1.6 NM barat.
+            </p>
+          </div>
+
+          <div class="viewer" id="spatial-viewer">
+            <div class="viewer-toolbar">
+              <div class="field">
+                <label for="product">Produk</label>
+                <select id="product" data-product></select>
+              </div>
+              <div class="field">
+                <label for="time">Waktu valid</label>
+                <input id="time" type="range" data-time />
+              </div>
+              <div class="time-readout" data-readout>—</div>
+              <div class="viewer-controls">
+                <button type="button" class="viewer-btn" data-prev>Previous</button>
+                <button type="button" class="viewer-btn" data-play aria-pressed="false">Play</button>
+                <button type="button" class="viewer-btn" data-next>Next</button>
+              </div>
+            </div>
+            <div class="viewer-frame">
+              <img data-frame alt="Frame peta spasial" />
+            </div>
+            <p class="viewer-hint">
+              Default produk: GFS SWH · waktu awal mendekati 12 Sep 2026 18Z.
+              Densifikasi GFS/HYCOM 0.01° hanya untuk keterbacaan tampilan.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="model">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Model, pengambilan data &amp; caveat</h2>
+            <p>
+              Pilih model di menu. Detail model aktif ditampilkan di bawah;
+              model lain tersembunyi sampai menunya diklik.
+            </p>
+          </div>
+
+          <div class="model-menu" data-model-menu>
+            <nav class="model-tabs" role="tablist" aria-label="Pilih model">
+              <button type="button" class="model-tab is-active" role="tab" aria-selected="true" aria-controls="model-gfs-wave" data-model-tab="model-gfs-wave">GFS Wave</button>
+              <button type="button" class="model-tab" role="tab" aria-selected="false" aria-controls="model-gfs-atmos" data-model-tab="model-gfs-atmos">GFS Atmos</button>
+              <button type="button" class="model-tab" role="tab" aria-selected="false" aria-controls="model-hycom" data-model-tab="model-hycom">HYCOM</button>
+              <button type="button" class="model-tab" role="tab" aria-selected="false" aria-controls="model-inacawo" data-model-tab="model-inacawo">INACAWO</button>
+              <button type="button" class="model-tab" role="tab" aria-selected="false" aria-controls="model-era5" data-model-tab="model-era5">ERA5</button>
+              <button type="button" class="model-tab" role="tab" aria-selected="false" aria-controls="model-cmems" data-model-tab="model-cmems">CMEMS</button>
+            </nav>
+            <div class="model-panels">
+            <article class="model-panel is-active" id="model-gfs-wave" role="tabpanel" data-model-panel="model-gfs-wave">
+              <div class="model-panel-head">
+                <h3>NOAA GFS Wave</h3>
+                <div class="model-summary-tags">
+                <span class="tag tag-primary">Primary</span>
+                <span class="tag">Gelombang</span>
+                </div>
+              </div>
+<p>
+              Model gelombang global yang digandeng GFS. Dipakai untuk tinggi
+              gelombang signifikan (SWH), swell primer, arah gelombang, serta
+              angin permukaan pada grid gelombang.
+            </p>
+            <h4>Metadata</h4>
+            <table class="spec-table">
+              <tbody>
+                <tr>
+                  <th>Institusi / produk</th>
+                  <td>NOAA / NCEP — GFS Wave (global 0.25°)</td>
+                </tr>
+                <tr>
+                  <th>Resolusi horizontal</th>
+                  <td>~0.25° (~25–28 km di lintang ini)</td>
+                </tr>
+                <tr>
+                  <th>Resolusi waktu</th>
+                  <td>3 jam (siklus 00/06/12/18 + forecast hour)</td>
+                </tr>
+                <tr>
+                  <th>Jendela plot</th>
+                  <td>10 Sep 2026 00Z – 15 Sep 2026 21Z</td>
+                </tr>
+                <tr>
+                  <th>Variabel yang dipakai</th>
+                  <td>
+                    <code>swh</code>, <code>dirpw</code>, <code>swell</code>,
+                    <code>swdir</code>, <code>ugrdsfc</code>, <code>vgrdsfc</code>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Unit plot peta</th>
+                  <td>SWH &amp; swell: meter · arah: panah normalisasi</td>
+                </tr>
+              </tbody>
+            </table>
+            <h4>Cara data diambil</h4>
+            <p>
+              Unduhan historis dari bucket AWS Open Data
+              <code>noaa-gfs-bdp-pds</code>. File GRIB2 gelombang
+              <code>gfswave.tHHz.global.0p25.fXXX.grib2</code> diunduh per valid
+              time, lalu di-subset ke bbox analisis di lokal
+              (<code>scripts/download_gfs.py</code>).
+            </p>
+            <h4>Caveat</h4>
+            <ul class="caveat">
+              <li>
+                Grid 0.25° merata-ratakan kondisi Laut Jawa terbuka di sekitar
+                Masalembo; fitur mesoscale lokal bisa tersamar.
+              </li>
+              <li>
+                Densifikasi ke 0.01° pada peta hanya interpolasi + smoothing
+                tampilan — tidak menambah informasi fisik.
+              </li>
+              <li>
+                Arah gelombang memakai konvensi meteorologi “dari mana datang”,
+                lalu dikonversi ke vektor propagasi untuk panah.
+              </li>
+              <li>
+                Interpretasi SWH model vs laporan lapangan / BMKG harus
+                mempertimbangkan resolusi, lokasi sampling, dan ketidakpastian
+                laporan.
+              </li>
+            </ul>
+            </article>
+            <article class="model-panel" id="model-gfs-atmos" role="tabpanel" hidden data-model-panel="model-gfs-atmos">
+              <div class="model-panel-head">
+                <h3>NOAA GFS Atmos (10 m wind)</h3>
+                <div class="model-summary-tags">
+                <span class="tag tag-primary">Primary</span>
+                <span class="tag">Angin</span>
+                </div>
+              </div>
+<p>
+              Komponen angin permukaan 10 m dari paket atmosfer GFS 0.25°, untuk
+              meteogram dan peta angin.
+            </p>
+            <h4>Metadata</h4>
+            <table class="spec-table">
+              <tbody>
+                <tr>
+                  <th>Institusi / produk</th>
+                  <td>NOAA / NCEP — GFS pgrb2 0.25°</td>
+                </tr>
+                <tr>
+                  <th>Resolusi horizontal</th>
+                  <td>~0.25°</td>
+                </tr>
+                <tr>
+                  <th>Resolusi waktu</th>
+                  <td>3 jam</td>
+                </tr>
+                <tr>
+                  <th>Variabel</th>
+                  <td><code>u10</code>, <code>v10</code> (m/s; peta dikonversi ke knot)</td>
+                </tr>
+              </tbody>
+            </table>
+            <h4>Cara data diambil</h4>
+            <p>
+              Dari bucket yang sama (<code>noaa-gfs-bdp-pds</code>), file
+              <code>gfs.tHHz.pgrb2.0p25.fXXX</code>. Sedapat mungkin memakai
+              byte-range lewat file <code>.idx</code> agar hanya field u/v 10 m
+              yang diunduh, lalu di-subset ke domain
+              (<code>scripts/download_gfs.py</code>).
+            </p>
+            <h4>Caveat</h4>
+            <ul class="caveat">
+              <li>
+                Tidak menangkap variasi angin mesoscale di sekitar Pulau
+                Masalembo / Laut Jawa dengan detail tinggi.
+              </li>
+              <li>
+                Angin GFS Atmos dan angin permukaan GFS Wave berasal dari paket
+                berbeda; boleh berbeda tipis pada titik yang sama.
+              </li>
+              <li>Forecast hour pendek dipakai untuk membangun deret historis valid-time.</li>
+            </ul>
+            </article>
+            <article class="model-panel" id="model-hycom" role="tabpanel" hidden data-model-panel="model-hycom">
+              <div class="model-panel-head">
+                <h3>HYCOM ESPC-D-V02</h3>
+                <div class="model-summary-tags">
+                <span class="tag tag-primary">Primary</span>
+                <span class="tag">Arus</span>
+                </div>
+              </div>
+<p>
+              Arus permukaan (lapisan terdekat permukaan) dari archive HYCOM
+              ESPC-D-V02, untuk peta dan meteogram arus — relevan untuk drift
+              bangkai yang dilaporkan Basarnas (~1.6 NM ke barat).
+            </p>
+            <h4>Metadata</h4>
+            <table class="spec-table">
+              <tbody>
+                <tr>
+                  <th>Institusi / produk</th>
+                  <td>HYCOM Consortium — ESPC-D-V02 (u3z / v3z)</td>
+                </tr>
+                <tr>
+                  <th>Akses</th>
+                  <td>THREDDS OpenDAP <code>tds.hycom.org</code></td>
+                </tr>
+                <tr>
+                  <th>Resolusi horizontal</th>
+                  <td>~1/12° (orde ~9 km; tergantung grid native produk)</td>
+                </tr>
+                <tr>
+                  <th>Resolusi waktu</th>
+                  <td>3 jam (disample ke step konfigurasi)</td>
+                </tr>
+                <tr>
+                  <th>Variabel</th>
+                  <td>
+                    <code>water_u</code>, <code>water_v</code>,
+                    <code>speed</code> (m/s; peta ditampilkan cm/s)
+                  </td>
+                </tr>
+                <tr>
+                  <th>Kedalaman</th>
+                  <td>Permukaan (depth ≈ 0, nearest)</td>
+                </tr>
+              </tbody>
+            </table>
+            <h4>Cara data diambil</h4>
+            <p>
+              Subset harian via NetcdfSubset (NCSS)
+              <code>ESPC-D-V02/u3z/{year}</code> dan
+              <code>ESPC-D-V02/v3z/{year}</code> untuk rentang waktu + bbox,
+              digabung jadi NetCDF lokal
+              (<code>scripts/download_hycom.py</code>). OpenDAP agregat tahunan
+              sering hang; jika TDS/NCSS sementara down, jalankan ulang skript
+              (file harian di <code>data/hycom/raw/</code> di-resume).
+            </p>
+            <h4>Caveat</h4>
+            <ul class="caveat">
+              <li>
+                Arus model tidak sama dengan lintasan drift bangkai aktual;
+                estimasi 1.6 NM barat adalah laporan operasional, bukan hasil
+                adveksi model di halaman ini.
+              </li>
+              <li>
+                Sampling titik memakai interpolasi / nearest wet cell jika titik
+                jatuh di mask.
+              </li>
+              <li>
+                Produk archive ESPC; bukan observasi in-situ. Verifikasi lapangan
+                tetap diperlukan untuk investigasi forensik.
+              </li>
+            </ul>
+            </article>
+            <article class="model-panel" id="model-inacawo" role="tabpanel" hidden data-model-panel="model-inacawo">
+              <div class="model-panel-head">
+                <h3>INACAWO (~3 km / 1 jam)</h3>
+                <div class="model-summary-tags">
+                <span class="tag">Slot · regional</span>
+                <span class="tag">Gelombang · angin · arus</span>
+                </div>
+              </div>
+<p>
+              Slot model regional resolusi tinggi untuk Masalembo / Laut Jawa.
+              Belum terisi di deliverable ini — folder figure sudah disiapkan.
+            </p>
+            <h4>Metadata (target)</h4>
+            <table class="spec-table">
+              <tbody>
+                <tr>
+                  <th>Produk</th>
+                  <td>INACAWO regional metocean</td>
+                </tr>
+                <tr>
+                  <th>Resolusi horizontal</th>
+                  <td>≈ 3 km</td>
+                </tr>
+                <tr>
+                  <th>Resolusi waktu</th>
+                  <td>1 jam</td>
+                </tr>
+                <tr>
+                  <th>Jendela plot (target)</th>
+                  <td>10 Sep 2026 00Z – 15 Sep 2026 00Z</td>
+                </tr>
+                <tr>
+                  <th>Path figure</th>
+                  <td>
+                    <code>figures/spatial/inacawo/…</code> ·
+                    <code>figures/point/inacawo/…</code>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <h4>Caveat</h4>
+            <ul class="caveat">
+              <li>
+                Integrasi menunggu paket spasial + titik.zip untuk domain dan
+                jendela Virgo.
+              </li>
+              <li>
+                Setelah diisi, bandingkan dengan GFS/HYCOM pada waktu yang sama
+                untuk melihat sinyal regional yang hilang di grid kasar.
+              </li>
+            </ul>
+            </article>
+            <article class="model-panel" id="model-era5" role="tabpanel" hidden data-model-panel="model-era5">
+              <div class="model-panel-head">
+                <h3>ERA5 (opsional)</h3>
+                <div class="model-summary-tags">
+                <span class="tag">Optional</span>
+                <span class="tag">Reanalisis</span>
+                </div>
+              </div>
+<p>
+              Reanalisis ECMWF lewat Climate Data Store — kandidat pembanding
+              gelombang/angin 1-jam. Belum menjadi sumber primary di halaman ini.
+            </p>
+            <h4>Metadata &amp; pengambilan</h4>
+            <table class="spec-table">
+              <tbody>
+                <tr>
+                  <th>Akses</th>
+                  <td>CDS API (<code>~/.cdsapirc</code> + lisensi ERA5)</td>
+                </tr>
+                <tr>
+                  <th>Resolusi</th>
+                  <td>~0.25°, 1 jam</td>
+                </tr>
+                <tr>
+                  <th>Skript</th>
+                  <td><code>scripts/download_era5.py</code> (skip jika kredensial absen)</td>
+                </tr>
+              </tbody>
+            </table>
+            <h4>Caveat</h4>
+            <ul class="caveat">
+              <li>Latensi/reanalisis: tidak realtime; butuh akun CDS.</li>
+              <li>Resolusi spasial masih kasar untuk fitur mesoscale lokal.</li>
+            </ul>
+            </article>
+            <article class="model-panel" id="model-cmems" role="tabpanel" hidden data-model-panel="model-cmems">
+              <div class="model-panel-head">
+                <h3>CMEMS global ocean (opsional)</h3>
+                <div class="model-summary-tags">
+                <span class="tag">Optional</span>
+                <span class="tag">Arus</span>
+                </div>
+              </div>
+<p>
+              Analisis/prakiraan fisika laut global Copernicus Marine sebagai
+              pembanding arus permukaan hourly.
+            </p>
+            <h4>Metadata &amp; pengambilan</h4>
+            <table class="spec-table">
+              <tbody>
+                <tr>
+                  <th>Dataset default</th>
+                  <td><code>cmems_mod_glo_phy_anfc_0.083deg_PT1H-m</code></td>
+                </tr>
+                <tr>
+                  <th>Resolusi</th>
+                  <td>~1/12°, 1 jam</td>
+                </tr>
+                <tr>
+                  <th>Akses</th>
+                  <td><code>copernicusmarine</code> login / env credentials</td>
+                </tr>
+                <tr>
+                  <th>Skript</th>
+                  <td><code>scripts/download_cmems.py</code></td>
+                </tr>
+              </tbody>
+            </table>
+            <h4>Caveat</h4>
+            <ul class="caveat">
+              <li>Produk model global; kualitas pantai terbatas.</li>
+              <li>Perlu kredensial Copernicus Marine; skip otomatis jika tidak tersedia.</li>
+            </ul>
+            </article>
+            </div>
+          </div>
+
+<div class="method-note">
+            <strong>Catatan metodologi tampilan.</strong>
+            Field spasial GFS/HYCOM dapat di-densifikasi ke 0.01° (~1.1 km) dengan
+            interpolasi linear + Gaussian ringan (<code>refine_field.py</code>) hanya
+            untuk keterbacaan peta — bukan resolusi fisik baru. Sampling titik
+            memakai interpolasi, dengan fallback ke sel laut terdekat jika titik
+            jatuh di mask darat. Konfigurasi event: <code>event.yaml</code>.
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="brand-line">Monsun Analysis</div>
+        <p>
+          KMP Virgo Transport 8 · Masalembo / Laut Jawa · plot &amp; dokumentasi model
+          untuk interpretasi metocean. Bukan pengganti investigasi resmi.
+        </p>
+        <p>
+          Sumber berita latar:
+          <a
+            href="https://www.antaranews.com/berita/5740341/kronologi-kmp-virgo-transport-8-terbalik-di-laut-jawa"
+            rel="noopener noreferrer"
+            >ANTARA</a
+          >
+          ·
+          <a
+            href="https://www.antaranews.com/berita/5739801/basarnas-cari-129-korban-km-virgo-hingga-2600-mil-laut-dari-koordinat"
+            rel="noopener noreferrer"
+            >Basarnas koordinat</a
+          >.
+        </p>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>

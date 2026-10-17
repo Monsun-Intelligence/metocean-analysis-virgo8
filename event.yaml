@@ -1,0 +1,99 @@
+# KMP Virgo Transport 8 — Masalembo / Laut Jawa metocean analysis
+
+event:
+  name: KMP Virgo Transport 8
+  # Basarnas / public reports: ~02:00 WITA (UTC+8) on 13 Sep 2026 (listing / lost contact)
+  time_local: "2026-09-13T02:00:00+08:00"
+  time_utc: "2026-09-12T18:00:00Z"
+  # Last known position (Basarnas datum, Masalembo / Laut Jawa)
+  incident:
+    lon: 114.035244
+    lat: -4.531061
+    label: Titik Hilang Kontak (Masalembo / Laut Jawa)
+  # Approximate wreck drift ~1.6 NM west (Basarnas day-2 SAR); not a salvage survey fix
+  wreck:
+    lon: 114.008600
+    lat: -4.531061
+    label: Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)
+  # BMKG: kondisi sedang; kesaksian penumpang menyebut ombak — tidak dipatok keras
+  reported_swh_m: []
+
+domain:
+  # 2° × 2° plot bbox [min_lon, max_lon, min_lat, max_lat]
+  bbox: [113.035, 115.035, -5.531, -3.531]
+  download_margin_deg: 0.5
+  region_label: Masalembo / Laut Jawa
+
+time_window:
+  start: "2026-09-10T00:00:00Z"
+  end: "2026-09-15T21:00:00Z"
+
+refine:
+  # Display densification only (~1.1 km at this latitude); native GFS is 0.25°
+  target_deg: 0.01
+  method: linear
+  gaussian_sigma: 0.8
+  apply_gaussian: true
+
+datasets:
+  primary:
+    - gfs
+    - hycom
+  optional:
+    - era5
+    - cmems
+  gfs:
+    wave_step_hours: 3
+    atmos_step_hours: 3
+    products: [swh, swell, wind10m]
+  hycom:
+    step_hours: 3
+    products: [seacurrent]
+  era5:
+    step_hours: 1
+    products: [swh, swell, wind10m]
+  cmems:
+    step_hours: 1
+    products: [seacurrent]
+
+products:
+  swh:
+    display: Significant Wave Height
+    unit: m
+    palette: monsun_wave
+    levels: [0, 0.5, 0.75, 1, 1.25, 1.5, 2, 2.5, 3, 3.5, 4, 5, 6, 7]
+    extend: max
+  swell:
+    display: Primary Swell
+    unit: m
+    palette: monsun_swell
+    levels: [0, 0.5, 0.75, 1, 1.25, 1.5, 2, 2.5, 3, 3.5, 4, 5, 6, 7]
+    extend: max
+  wind10m:
+    display: 10 m Wind
+    unit: kt
+    palette: monsun_wind
+    levels: [0, 2, 4, 6, 8, 10, 15, 20, 25, 30, 35, 40, 50, 60]
+    extend: max
+    scale: 1.94384  # m/s → kt for maps
+  seacurrent:
+    display: Surface Current
+    unit: cm/s
+    palette: monsun_current
+    levels: [0, 5, 10, 20, 30, 45, 60, 80, 100, 150, 200, 300, 400]
+    extend: max
+    scale: 100.0  # m/s → cm/s for maps
+
+paths:
+  data_dir: data
+  figures_dir: figures
+  spatial_dir: figures/spatial
+  point_dir: figures/point
+
+plot:
+  dpi: 120
+  fileformat: png
+  every: 1  # render every Nth native timestep (1 = all)
+  key_times_utc:
+    - "2026-09-12T18:00:00Z"
+    - "2026-09-12T21:00:00Z"

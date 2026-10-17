@@ -1,0 +1,24 @@
+data/
+# figures/ tracked — needed for GitHub Pages static report
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+*.grib2
+*.idx
+*.nc
+
+# secrets / local env
+.env
+.cdsapirc
+*.pem
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# tool caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/

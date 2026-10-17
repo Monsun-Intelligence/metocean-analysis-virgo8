@@ -72,8 +72,8 @@ Output:
 
 ## Status data (Oct 2026)
 
-- **GFS Wave/Atmos:** lengkap untuk jendela analisis.
-- **HYCOM:** unduhan NCSS/TDS sering timeout dari lingkungan ini; jalankan `python scripts/download_hycom.py` lalu refine/extract/plot saat `tds.hycom.org` / `ncss.hycom.org` pulih. File harian yang sudah ada di `data/hycom/raw/` akan di-resume.
+- **GFS Wave/Atmos:** lengkap 10 Sep 00Z – 15 Sep 21Z.
+- **HYCOM:** NCSS day-chunk 10–14 Sep 2026 (40 frame); 15 Sep `v3z` timeout berulang sehingga viewer arus berakhir 14 Sep 21Z. Lengkapi dengan `python scripts/download_hycom.py` lalu refine/extract/plot bila TDS stabil.
 ## GitHub Pages
 
 Static report: [`index.html`](index.html) (metogram, spatial viewer, metadata model + caveat).

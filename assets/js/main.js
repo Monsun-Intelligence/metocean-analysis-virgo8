@@ -26,7 +26,7 @@
       label: "Arus permukaan (HYCOM)",
       dir: "figures/spatial/hycom/seacurrent",
       stepHours: 3,
-      end: "2026091521",
+      end: "2026091421", // NCSS incomplete for 15 Sep; covers event ± window core
     },
     {
       id: "inacawo-current",

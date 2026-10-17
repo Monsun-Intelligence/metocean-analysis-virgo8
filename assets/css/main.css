@@ -806,6 +806,15 @@ section {
   max-width: 42rem;
 }
 
+.analysis-compare {
+  max-width: 56rem;
+  margin: 1.35rem 0 1.75rem;
+}
+
+.analysis-compare-maps .figure-block img {
+  width: 100%;
+}
+
 .analysis-essay h3 {
   font-family: var(--font-display);
   font-size: clamp(1.2rem, 2vw, 1.45rem);

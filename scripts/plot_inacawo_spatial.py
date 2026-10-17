@@ -64,7 +64,11 @@ def _dir_to_uv(direction: xr.DataArray) -> tuple[np.ndarray, np.ndarray]:
     return -np.sin(rad), -np.cos(rad)
 
 
-def run(event_path: Path | None = None, every: int = 1) -> None:
+def run(
+    event_path: Path | None = None,
+    every: int = 1,
+    only: list[str] | None = None,
+) -> None:
     cfg = load_event(event_path)
     ensure_dirs(cfg)
     root = project_root()
@@ -105,6 +109,8 @@ def run(event_path: Path | None = None, every: int = 1) -> None:
             "mode": "uv",
             # Speeds already look like knots (0–25); keep map levels in kt
             "scale": 1.0,
+            # Variable arrow length (matches GFS Atmos wind maps)
+            "direction_only": False,
             "title": "10 m Wind",
             "source": "INACAWO (~3 km)",
         },
@@ -117,16 +123,24 @@ def run(event_path: Path | None = None, every: int = 1) -> None:
             "mode": "uv",
             # Native m/s → cm/s for map levels
             "scale": 100.0,
+            # Uniform arrow length; magnitude via color (matches HYCOM)
+            "direction_only": True,
             "title": "Surface Current",
             "source": "INACAWO (~3 km)",
         },
     ]
 
+    if only:
+        wanted = {x.strip().lower() for x in only}
+        products = [p for p in products if p["out"] in wanted]
+        if not products:
+            raise SystemExit(f"No products matched --only {only}")
+
     for spec in products:
         print(f"[INFO] INACAWO product {spec['out']}…", flush=True)
         mag = _concat_chunks(raw, spec["mag_rel"]) * float(spec["scale"])
         direction = uu = vv = None
-        direction_only = False
+        direction_only = bool(spec.get("direction_only", spec["mode"] == "dir"))
         if spec["mode"] == "dir":
             direction = _concat_chunks(raw, spec["dir_rel"])
             direction, mag = xr.align(direction, mag, join="inner")
@@ -184,8 +198,14 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--event", type=Path, default=None)
     parser.add_argument("--every", type=int, default=1, help="Plot every Nth hour")
+    parser.add_argument(
+        "--only",
+        nargs="*",
+        default=None,
+        help="Limit to product out-dirs: current wind swh swell",
+    )
     args = parser.parse_args()
-    run(args.event, every=args.every)
+    run(args.event, every=args.every, only=args.only)
 
 
 if __name__ == "__main__":

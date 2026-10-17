@@ -318,17 +318,26 @@
               Java Sea rather than a short-lived squall spike.
             </p>
 
-            <figure class="analysis-figure analysis-figure-wide">
-              <img
-                src="figures/point/inacawo/meteogram_WindSpeed.png"
-                alt="INACAWO wind speed meteogram at incident and drift points"
-                loading="lazy"
-              />
-              <figcaption>
-                INACAWO wind speed at hilang kontak vs estimasi drift · knots ·
-                1-hour series.
-              </figcaption>
-            </figure>
+            <div class="compare-pair analysis-compare">
+              <figure class="figure-block">
+                <h4>INACAWO · Wind speed</h4>
+                <img
+                  src="figures/point/inacawo/meteogram_WindSpeed.png"
+                  alt="INACAWO wind speed meteogram"
+                  loading="lazy"
+                />
+                <figcaption>~3 km · 1 jam · knots · garis putus = event 18Z</figcaption>
+              </figure>
+              <figure class="figure-block">
+                <h4>GFS Atmos · 10 m wind</h4>
+                <img
+                  src="figures/point/meteogram/wind10m.png"
+                  alt="GFS 10 m wind meteogram"
+                  loading="lazy"
+                />
+                <figcaption>0.25° · 3 jam · m/s · garis putus = event 18Z</figcaption>
+              </figure>
+            </div>
 
             <h4>Waves: moderate significant height, rough individual extremes</h4>
             <p>
@@ -360,16 +369,26 @@
               at the absolute maximum of the series.
             </p>
 
-            <figure class="analysis-figure analysis-figure-wide">
-              <img
-                src="figures/point/inacawo/meteogram_Hsig.png"
-                alt="INACAWO significant wave height meteogram"
-                loading="lazy"
-              />
-              <figcaption>
-                INACAWO Hsig · hilang kontak vs estimasi drift · metres.
-              </figcaption>
-            </figure>
+            <div class="compare-pair analysis-compare">
+              <figure class="figure-block">
+                <h4>INACAWO · Hsig</h4>
+                <img
+                  src="figures/point/inacawo/meteogram_Hsig.png"
+                  alt="INACAWO Hsig meteogram"
+                  loading="lazy"
+                />
+                <figcaption>~3 km · 1 jam · meter · garis putus = event 18Z</figcaption>
+              </figure>
+              <figure class="figure-block">
+                <h4>GFS Wave · SWH</h4>
+                <img
+                  src="figures/point/meteogram/swh.png"
+                  alt="GFS SWH meteogram"
+                  loading="lazy"
+                />
+                <figcaption>0.25° · 3 jam · meter · garis putus = event 18Z</figcaption>
+              </figure>
+            </div>
 
             <h4>Current: present, but not the loudest signal</h4>
             <p>
@@ -392,19 +411,51 @@
               <strong>sustained moderate wind-sea</strong>.
             </p>
 
-            <figure class="analysis-figure">
-              <img
-                src="figures/spatial/inacawo/current/t_2026091218.png"
-                alt="INACAWO surface current map at 12 Sep 2026 18 UTC"
-                loading="lazy"
-                width="960"
-                height="960"
-              />
-              <figcaption>
-                INACAWO surface current · 12 Sep 2026 18Z · cm/s with direction
-                vectors.
-              </figcaption>
-            </figure>
+            <div class="compare-pair analysis-compare">
+              <figure class="figure-block">
+                <h4>INACAWO · Current</h4>
+                <img
+                  src="figures/point/inacawo/meteogram_Current.png"
+                  alt="INACAWO current meteogram"
+                  loading="lazy"
+                />
+                <figcaption>~3 km · 1 jam · cm/s · garis putus = event 18Z</figcaption>
+              </figure>
+              <figure class="figure-block">
+                <h4>HYCOM · Surface current</h4>
+                <img
+                  src="figures/point/meteogram/seacurrent.png"
+                  alt="HYCOM current meteogram"
+                  loading="lazy"
+                />
+                <figcaption>~1/12° · 3 jam · m/s · garis putus = event 18Z</figcaption>
+              </figure>
+            </div>
+
+            <div class="compare-pair analysis-compare analysis-compare-maps">
+              <figure class="figure-block">
+                <h4>INACAWO · peta arus 18Z</h4>
+                <img
+                  src="figures/spatial/inacawo/current/t_2026091218.png"
+                  alt="INACAWO surface current map at 12 Sep 2026 18 UTC"
+                  loading="lazy"
+                  width="960"
+                  height="960"
+                />
+                <figcaption>Panah seragam (arah saja) · magnitude via warna · cm/s</figcaption>
+              </figure>
+              <figure class="figure-block">
+                <h4>HYCOM · peta arus 18Z</h4>
+                <img
+                  src="figures/spatial/hycom/seacurrent/t_2026091218.png"
+                  alt="HYCOM surface current map at 12 Sep 2026 18 UTC"
+                  loading="lazy"
+                  width="960"
+                  height="960"
+                />
+                <figcaption>Panah seragam (arah saja) · magnitude via warna · cm/s</figcaption>
+              </figure>
+            </div>
 
             <h3>4. So, was the weather really the problem?</h3>
             <p>
@@ -509,8 +560,10 @@
           <div class="section-head">
             <h2>Meteogram titik</h2>
             <p>
-              Parameter yang sama berdampingan: INACAWO (kiri, ~3 km / 1 jam) vs
-              GFS/HYCOM (kanan, 3 jam) di titik hilang kontak dan estimasi drift.
+              Parameter yang sama ditampilkan berdampingan: INACAWO (kiri, 1 jam)
+              vs GFS/HYCOM (kanan, 3 jam). Kedua plot membandingkan lokasi hilang
+              kontak dan estimasi drift; garis putus merah menandai waktu kejadian
+              (~12 Sep 18:00 UTC).
             </p>
           </div>
 
@@ -1021,7 +1074,9 @@
               </li>
               <li>
                 Unit angin pada field spasial diperlakukan sebagai knots (rentang
-                ~0–25); arus native m/s dikalikan 100 untuk peta cm/s.
+                ~0–25); arus native m/s dikalikan 100 untuk peta cm/s. Panah arus
+                dinormalisasi (panjang seragam; magnitude via warna) seperti
+                peta HYCOM.
               </li>
               <li>
                 Overlap 13 Sep antara dua paket NetCDF di-deduplikasi pada sumbu

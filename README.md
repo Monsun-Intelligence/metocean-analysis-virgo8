@@ -72,8 +72,9 @@ Output:
 
 ## Status data (Oct 2026)
 
+- **Domain plot:** 4°×4° (`event.yaml` bbox `[112.035, 116.035, -6.531, -2.531]`).
 - **GFS Wave/Atmos:** lengkap 10 Sep 00Z – 15 Sep 21Z.
-- **HYCOM:** NCSS day-chunk 10–14 Sep 2026 (40 frame); 15 Sep `v3z` timeout berulang sehingga viewer arus berakhir 14 Sep 21Z. Lengkapi dengan `python scripts/download_hycom.py` lalu refine/extract/plot bila TDS stabil.
+- **HYCOM:** NCSS day-chunk 10–14 Sep 2026 (40 frame) pada domain 4°×4°; viewer arus berakhir 14 Sep 21Z.
 ## GitHub Pages
 
 Static report: [`index.html`](index.html) (metogram, spatial viewer, metadata model + caveat).

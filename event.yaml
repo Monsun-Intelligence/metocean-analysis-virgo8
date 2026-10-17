@@ -19,8 +19,8 @@ event:
   reported_swh_m: []
 
 domain:
-  # 2° × 2° plot bbox [min_lon, max_lon, min_lat, max_lat]
-  bbox: [113.035, 115.035, -5.531, -3.531]
+  # 4° × 4° plot bbox [min_lon, max_lon, min_lat, max_lat]
+  bbox: [112.035, 116.035, -6.531, -2.531]
   download_margin_deg: 0.5
   region_label: Masalembo / Laut Jawa
 

@@ -1,180 +1,100 @@
 time,variable,value,lon,lat,site,source
-2026-09-10 00:00:00,seacurrent_ms,0.03562197811252979,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-10 03:00:00,seacurrent_ms,0.2763777924237369,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-10 06:00:00,seacurrent_ms,0.33600015579611336,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-10 09:00:00,seacurrent_ms,0.22603980700146972,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-10 12:00:00,seacurrent_ms,0.23900603919296196,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-10 15:00:00,seacurrent_ms,0.2538370722636574,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-10 18:00:00,seacurrent_ms,0.5034432219848041,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-10 21:00:00,seacurrent_ms,0.2750840531992129,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-11 00:00:00,seacurrent_ms,0.07172763252689578,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-11 03:00:00,seacurrent_ms,0.30106811914223275,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-11 06:00:00,seacurrent_ms,0.4504269151687349,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-11 09:00:00,seacurrent_ms,0.27588544561998835,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-11 12:00:00,seacurrent_ms,0.2366014164788312,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-11 15:00:00,seacurrent_ms,0.30106928466243127,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-11 18:00:00,seacurrent_ms,0.5271741600934142,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-11 21:00:00,seacurrent_ms,0.3170581892748233,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-12 00:00:00,seacurrent_ms,0.10382380738233772,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-12 03:00:00,seacurrent_ms,0.2852819591572436,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-12 06:00:00,seacurrent_ms,0.4678257328054745,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-12 09:00:00,seacurrent_ms,0.27223108290825965,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-12 12:00:00,seacurrent_ms,0.19640304825457158,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-12 15:00:00,seacurrent_ms,0.26109727877342914,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-12 18:00:00,seacurrent_ms,0.5025993229924152,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-12 21:00:00,seacurrent_ms,0.2655141440973802,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-13 00:00:00,seacurrent_ms,0.08151246141642447,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-13 03:00:00,seacurrent_ms,0.2592013178830716,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-13 06:00:00,seacurrent_ms,0.5154774114460032,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-13 09:00:00,seacurrent_ms,0.29028746238900727,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-13 12:00:00,seacurrent_ms,0.12994563203188886,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-13 15:00:00,seacurrent_ms,0.2752177975543895,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-13 18:00:00,seacurrent_ms,0.5243256272336033,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-13 21:00:00,seacurrent_ms,0.34158357139447526,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-14 00:00:00,seacurrent_ms,0.1758905438932704,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-14 03:00:00,seacurrent_ms,0.2988522643361587,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-14 06:00:00,seacurrent_ms,0.5144371597489573,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-14 09:00:00,seacurrent_ms,0.37364223936606533,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-14 12:00:00,seacurrent_ms,0.15323352706663934,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-14 15:00:00,seacurrent_ms,0.3177748513543392,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-14 18:00:00,seacurrent_ms,0.5052901607014316,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-14 21:00:00,seacurrent_ms,0.3074964950135407,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),hycom
-2026-09-10 00:00:00,seacurrent_ms,0.03215792844463129,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-10 03:00:00,seacurrent_ms,0.2714545150071477,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-10 06:00:00,seacurrent_ms,0.3418417796752025,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-10 09:00:00,seacurrent_ms,0.2292964266873134,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-10 12:00:00,seacurrent_ms,0.23053687047261076,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-10 15:00:00,seacurrent_ms,0.2492509224241025,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-10 18:00:00,seacurrent_ms,0.49048766972911273,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-10 21:00:00,seacurrent_ms,0.2713562184265289,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-11 00:00:00,seacurrent_ms,0.0691302116165675,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-11 03:00:00,seacurrent_ms,0.29501992549675937,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-11 06:00:00,seacurrent_ms,0.4523317329264712,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-11 09:00:00,seacurrent_ms,0.28846072459609473,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-11 12:00:00,seacurrent_ms,0.23442170581357308,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-11 15:00:00,seacurrent_ms,0.29664833773556115,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-11 18:00:00,seacurrent_ms,0.5159787655714031,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-11 21:00:00,seacurrent_ms,0.31522538436007225,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-12 00:00:00,seacurrent_ms,0.10453252503787541,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-12 03:00:00,seacurrent_ms,0.28047780185010507,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-12 06:00:00,seacurrent_ms,0.46889903480322415,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-12 09:00:00,seacurrent_ms,0.2865640282126035,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-12 12:00:00,seacurrent_ms,0.1935853566614587,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-12 15:00:00,seacurrent_ms,0.258053013217596,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-12 18:00:00,seacurrent_ms,0.4947875642044273,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-12 21:00:00,seacurrent_ms,0.27045180721151796,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-13 00:00:00,seacurrent_ms,0.08270971470332952,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-13 03:00:00,seacurrent_ms,0.25640172778466913,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-13 06:00:00,seacurrent_ms,0.515210557366665,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-13 09:00:00,seacurrent_ms,0.3023515105875816,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-13 12:00:00,seacurrent_ms,0.13187354234236087,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-13 15:00:00,seacurrent_ms,0.2708314593891845,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-13 18:00:00,seacurrent_ms,0.5156918735107694,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-13 21:00:00,seacurrent_ms,0.34582005504267493,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-14 00:00:00,seacurrent_ms,0.18212267764997597,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-14 03:00:00,seacurrent_ms,0.29626938355533255,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-14 06:00:00,seacurrent_ms,0.5115884959271747,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-14 09:00:00,seacurrent_ms,0.3822752362737165,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-14 12:00:00,seacurrent_ms,0.15919392613402558,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-14 15:00:00,seacurrent_ms,0.3115573477576739,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-14 18:00:00,seacurrent_ms,0.4978128160231199,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
-2026-09-14 21:00:00,seacurrent_ms,0.3155439318843888,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",hycom
 2026-09-10 00:00:00,swell,0.17000000178813934,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
 2026-09-10 03:00:00,swell,0.3799999952316284,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
 2026-09-10 06:00:00,swell,0.28999999165534973,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
 2026-09-10 09:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-10 12:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-10 15:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-10 18:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-10 12:00:00,swell,0.05999999865889549,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-10 15:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-10 18:00:00,swell,0.05999999865889549,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
 2026-09-10 21:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-11 00:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-11 03:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-11 06:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-11 09:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-11 12:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-11 15:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-11 18:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-11 00:00:00,swell,0.05999999865889549,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-11 03:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-11 06:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-11 09:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-11 12:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-11 15:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-11 18:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
 2026-09-11 21:00:00,swell,0.5699999928474426,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-12 00:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-12 00:00:00,swell,0.14000000059604645,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
 2026-09-12 03:00:00,swell,0.8500000238418579,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-12 06:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-12 09:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-12 12:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-12 15:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-12 18:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-12 21:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-12 06:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-12 09:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-12 12:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-12 15:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-12 18:00:00,swell,0.12999999523162842,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-12 21:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
 2026-09-13 00:00:00,swell,0.4699999988079071,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
 2026-09-13 03:00:00,swell,0.46000000834465027,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-13 06:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-13 09:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-13 12:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-13 15:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-13 18:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-13 21:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-14 00:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-14 03:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-14 06:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-14 09:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-14 12:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-14 15:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-14 18:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-14 21:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-15 00:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-13 06:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-13 09:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-13 12:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-13 15:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-13 18:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-13 21:00:00,swell,0.18000000715255737,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-14 00:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-14 03:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-14 06:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-14 09:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-14 12:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-14 15:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-14 18:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-14 21:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-15 00:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
 2026-09-15 03:00:00,swell,0.5699999928474426,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-15 06:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-15 09:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-15 06:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-15 09:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
 2026-09-15 12:00:00,swell,0.3799999952316284,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-15 15:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-15 18:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
-2026-09-15 21:00:00,swell,,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-15 15:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-15 18:00:00,swell,0.3400000035762787,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
+2026-09-15 21:00:00,swell,0.05000000074505806,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
 2026-09-10 00:00:00,swell,0.17000000178813934,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
 2026-09-10 03:00:00,swell,0.3799999952316284,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
 2026-09-10 06:00:00,swell,0.28999999165534973,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
 2026-09-10 09:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-10 12:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-10 15:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-10 18:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-10 12:00:00,swell,0.05999999865889549,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-10 15:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-10 18:00:00,swell,0.05999999865889549,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
 2026-09-10 21:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-11 00:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-11 03:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-11 06:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-11 09:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-11 12:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-11 15:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-11 18:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-11 00:00:00,swell,0.05999999865889549,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-11 03:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-11 06:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-11 09:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-11 12:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-11 15:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-11 18:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
 2026-09-11 21:00:00,swell,0.5699999928474426,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-12 00:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-12 00:00:00,swell,0.14000000059604645,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
 2026-09-12 03:00:00,swell,0.8500000238418579,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-12 06:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-12 09:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-12 12:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-12 15:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-12 18:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-12 21:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-12 06:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-12 09:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-12 12:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-12 15:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-12 18:00:00,swell,0.12999999523162842,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-12 21:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
 2026-09-13 00:00:00,swell,0.4699999988079071,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
 2026-09-13 03:00:00,swell,0.46000000834465027,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-13 06:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-13 09:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-13 12:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-13 15:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-13 18:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-13 21:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-14 00:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-14 03:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-14 06:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-14 09:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-14 12:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-14 15:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-14 18:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-14 21:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-15 00:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-13 06:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-13 09:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-13 12:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-13 15:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-13 18:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-13 21:00:00,swell,0.18000000715255737,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-14 00:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-14 03:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-14 06:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-14 09:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-14 12:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-14 15:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-14 18:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-14 21:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-15 00:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
 2026-09-15 03:00:00,swell,0.5699999928474426,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-15 06:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-15 09:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-15 06:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-15 09:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
 2026-09-15 12:00:00,swell,0.3799999952316284,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-15 15:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-15 18:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
-2026-09-15 21:00:00,swell,,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-15 15:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-15 18:00:00,swell,0.3400000035762787,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
+2026-09-15 21:00:00,swell,0.05000000074505806,114.0086,-4.531061,"Estimasi Drift Bangkai (~1.6 NM barat, laporan Basarnas)",gfs
 2026-09-10 00:00:00,swh,0.8341786088602524,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
 2026-09-10 03:00:00,swh,0.8345208557235719,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs
 2026-09-10 06:00:00,swh,0.8898168449672895,114.035244,-4.531061,Titik Hilang Kontak (Masalembo / Laut Jawa),gfs

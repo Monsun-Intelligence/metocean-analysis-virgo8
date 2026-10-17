@@ -10,7 +10,7 @@ Sumber berita: [ANTARA — kronologi](https://www.antaranews.com/berita/5740341/
 
 | Mode | Isi |
 |------|-----|
-| **Spasial** | SWH, primary swell, angin 10 m, arus permukaan — domain 2°×2° sekitar kejadian |
+| **Spasial** | SWH, primary swell, angin 10 m, arus permukaan — domain 4°×4° sekitar kejadian |
 | **Titik** | Time series di titik hilang kontak (+ estimasi drift bangkai), **±3 hari**, timestep native sumber |
 
 Densifikasi display default **0.01° (~1.1 km)** — interpolasi + Gaussian ringan di atas grid native (GFS 0.25°). Ini **bukan** resolusi fisik baru.
